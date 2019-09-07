@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B72D399-6D00-4711-AF48-71FED26E4D6B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SyndAmbiance</RootNamespace>
+    <AssemblyName>SyndAmbiance</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>H:\SyndAmbiApp\Bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Branch.aspx" />
+    <Content Include="BranchStatus.aspx" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap-select.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\button.css" />
+    <Content Include="css\chosen-sprite.png" />
+    <Content Include="css\chosen.css" />
+    <Content Include="css\datepicker3.css" />
+    <Content Include="css\dropzone.css" />
+    <Content Include="css\farbtastic.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\jquery.dataTables.min.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\meanmenu.min.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\notification.css" />
+    <Content Include="css\notika-custom-icon.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\owl.theme.css" />
+    <Content Include="css\owl.transitions.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\jquery.mCustomScrollbar.min.css" />
+    <Content Include="css\summernote.css" />
+    <Content Include="css\themesaller-forms.css" />
+    <Content Include="css\waves.min.css" />
+    <Content Include="Dashboard.aspx" />
+    <Content Include="EmployeFeedback.aspx" />
+    <Content Include="EmpReportAmbiance.aspx" />
+    <Content Include="EmpReports.aspx" />
+    <Content Include="images\profile\emp.png" />
+    <Content Include="images\profile\param.jpg" />
+    <Content Include="images\select.png" />
+    <Content Include="images\sort_asc.png" />
+    <Content Include="images\sort_asc_disabled.png" />
+    <Content Include="images\sort_both.png" />
+    <Content Include="images\sort_desc.png" />
+    <Content Include="images\sort_desc_disabled.png" />
+    <Content Include="images\staff\param.jpg" />
+    <Content Include="img\chosen-sprite.png" />
+    <Content Include="img\green1.png" />
+    <Content Include="img\men.png" />
+    <Content Include="img\SyndLogo.png" />
+    <Content Include="img\women.png" />
+    <Content Include="index.aspx" />
+    <Content Include="js\area-chart.js" />
+    <Content Include="js\autosize.min.js" />
+    <Content Include="js\bar-chart.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\canvasjs.min.js" />
+    <Content Include="js\Chart.js" />
+    <Content Include="js\charts\canvasjs.min.js" />
+    <Content Include="js\charts\jquery-1.11.1.min.js" />
+    <Content Include="js\charts\jquery-ui.1.11.2.min.js" />
+    <Content Include="js\counterup\counterup-active.js" />
+    <Content Include="js\counterup\jquery.counterup.min.js" />
+    <Content Include="js\counterup\waypoints.min.js" />
+    <Content Include="js\icheck-active.js" />
+    <Content Include="js\icheck.min.js" />
+    <Content Include="js\jasny-bootstrap.min.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery-price-slider.js" />
+    <Content Include="js\jquery-ui.1.11.2.min.js" />
+    <Content Include="js\jquery.scrollUp.min.js" />
+    <Content Include="js\line-chart.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\meanmenu\jquery.meanmenu.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\plugins.js" />
+    <Content Include="js\scrollbar\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="js\tawk-chat.js" />
+    <Content Include="js\vendor\jquery-1.12.4.min.js" />
+    <Content Include="js\vendor\modernizr-2.8.3.min.js" />
+    <Content Include="js\wave-active.js" />
+    <Content Include="js\waves.min.js" />
+    <Content Include="js\wow.min.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="ROLogin.aspx" />
+    <Content Include="StaffInfo.aspx" />
+    <Content Include="staffstatus.aspx" />
+    <Content Include="style.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Branch.aspx.cs">
+      <DependentUpon>Branch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Branch.aspx.designer.cs">
+      <DependentUpon>Branch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Branchadmin.Master.cs">
+      <DependentUpon>Branchadmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Branchadmin.Master.designer.cs">
+      <DependentUpon>Branchadmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="BranchFeedback.Master.cs">
+      <DependentUpon>BranchFeedback.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BranchFeedback.Master.designer.cs">
+      <DependentUpon>BranchFeedback.Master</DependentUpon>
+    </Compile>
+    <Compile Include="BranchStatus.aspx.cs">
+      <DependentUpon>BranchStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BranchStatus.aspx.designer.cs">
+      <DependentUpon>BranchStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeFeedback.aspx.cs">
+      <DependentUpon>EmployeFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeFeedback.aspx.designer.cs">
+      <DependentUpon>EmployeFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmpReportAmbiance.aspx.cs">
+      <DependentUpon>EmpReportAmbiance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpReportAmbiance.aspx.designer.cs">
+      <DependentUpon>EmpReportAmbiance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmpReports.aspx.cs">
+      <DependentUpon>EmpReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpReports.aspx.designer.cs">
+      <DependentUpon>EmpReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RO.Master.cs">
+      <DependentUpon>RO.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RO.Master.designer.cs">
+      <DependentUpon>RO.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ROLogin.aspx.cs">
+      <DependentUpon>ROLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ROLogin.aspx.designer.cs">
+      <DependentUpon>ROLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="StaffInfo.aspx.cs">
+      <DependentUpon>StaffInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffInfo.aspx.designer.cs">
+      <DependentUpon>StaffInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="staffstatus.aspx.cs">
+      <DependentUpon>staffstatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="staffstatus.aspx.designer.cs">
+      <DependentUpon>staffstatus.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AmbImages\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="empambImage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Branchadmin.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BranchFeedback.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RO.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>28219</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
